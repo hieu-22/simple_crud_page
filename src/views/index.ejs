@@ -33,7 +33,7 @@
                     <td><%= dataUser[i].gender %> </td>
                     <td><%= dataUser[i].ID %> </td>
                     <td><%= dataUser[i].email %> </td>
-                    <td>
+                    <td class="tableActionButtons">
                         <form action="/delete-user" method="post">
                             <input type="text" name="userID" value="<%= dataUser[i].user_id%>" hidden>
                             <button type="submit">delete</button>
